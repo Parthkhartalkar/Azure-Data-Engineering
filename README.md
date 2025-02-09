@@ -5,7 +5,7 @@ This project demonstrates an end-to-end data engineering solution using various 
 
 ## Use Case
 The project consists of the following steps:
-1. **Data Ingestion**: Ingest tables from an on-premise SQL Server database using **Azure Data Factory**.
+1. **Data Ingestion**: Ingest tables from an Azure SQL  database using **Azure Data Factory**.
 2. **Data Storage**: Store the ingested data in **Azure Data Lake Storage Gen2** for secure storage.
 3. **Data Transformation**: Use **Azure Databricks** with PySpark to clean the raw data.
 4. **Data Loading**: Load the cleaned data into **Azure Synapse Analytics**.
